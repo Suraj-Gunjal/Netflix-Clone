@@ -1,0 +1,198 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' , sans-serif;
+}
+.main{
+    position: relative;
+    background-image:url("Assets/Images/Background.jpg");
+    background-position: center center;
+    height: 70vh;
+}
+.box{
+    position: absolute;
+    top: 0;
+    height: 70vh;
+    opacity: 0.64;
+    width: 100%;
+    background-color: black;
+    background-position: center center;
+    background-size: max(1200px , 100vw);
+    background-repeat: no-repeat;
+
+}
+.navbar{
+    height : 112 px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.span1{
+    height: 90 px;
+    position: relative;
+    z-index: 10;
+    margin: 10px
+
+}
+.hero{
+    font-family: 'Martel Sans',sans-serif;
+    height: calc(100% - 62px);
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    padding: 30px;
+}
+@media screen {
+    
+}
+.redbtn{
+    background-color:rgb(211, 46, 46);
+    color: aliceblue;
+    font-weight: bolder;
+    padding: 10px 30px 10px 10px;
+    font-size: large;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+body{
+    background-color: black;
+}
+.Email{
+    padding: 10px 35px 10px 10px;
+    background-color: black;
+    color: white;
+}
+.seperation{
+    height: 7px;
+    background-color: rgba(45, 43, 43, 0.808);
+}
+.redbtn1{
+    background-color: rgb(211, 46, 46);
+    color: aliceblue;
+    font-weight:600;
+    padding: 2px 10px;
+    font-size: medium;
+    border-radius: 5px;
+    align-self: center;
+    border-color:rgb(211, 46, 46);
+    cursor: pointer;
+
+}
+.btn{
+    padding: 2px 30px;
+    background-color:rgba(21, 10, 10, 0.753);
+    color: white;
+    border: 0.5px solid rgba(132, 130, 130, 0.877);
+    border-radius: 5px;
+    font-weight: medium;
+    cursor: pointer;
+}
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    max-width: 90vw;
+    margin: auto;
+}
+
+@media screen and (max-width: 1300px){
+    .first{
+        flex-wrap: wrap;
+    }
+}
+
+.secImg img{
+    width: 40vw;
+    position: relative;
+    z-index: 10;
+}
+#tv1{
+    font-size: xx-large;
+    font-weight: 900;
+}
+.secImg{
+    position: relative;
+}
+.secImg video{
+    position: absolute;
+    top: 38px;
+    right: 0px;
+    width: 100%;
+
+}
+.faq h2{
+    text-align: center;
+    font-size: xx-large;
+}
+.faq{
+    padding: 34px;
+    color: white;
+}
+.faqbox{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    background-color: rgba(56, 55, 55, 0.626);
+    max-width: 40vw;
+    margin: auto;
+    margin:10px 20vw 10px 20vw; 
+
+}
+.ending :first-child{
+    padding: 8px 92px 10px 10px;
+    margin: 10px 30px;
+    border-radius: 5px;
+}
+.final :first-child{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.ending {
+    display: flex;
+    justify-content: center;
+}
+.redbtn3{
+    background-color:rgb(211, 46, 46);
+    color: aliceblue;
+    font-weight: bolder;
+    padding:10px;
+    font-size: large;
+    border-radius: 5px;
+    cursor: pointer;
+}
+footer{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 34px;
+    color: white;
+    max-width: 60vw;
+    margin: auto;
+
+}
+.footer-items{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+h4{
+    margin-top: 15px;
+    padding-left: 19vw;
+    color: white;
+    gap: 10px;
+}
+a{
+color: white;
+font-size: 14px;
+}
